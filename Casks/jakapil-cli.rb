@@ -4,21 +4,21 @@ cask "jakapil-cli" do
 
   on_macos do
     on_arm do
-      sha256 "e362ca1002620df379b2d1e867074a64038c2db12c3391f17c6445576fc19dfb"
+      sha256 "85b135a9f32208d7deaff936be91b62fbe515cbab8327f5ee503bb1d17260e66"
       url "https://github.com/kot1grun/jakapil-cli/releases/download/v#{version}/jakapil-cli_Darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "8e5b52c10192bffd3206ea7cf0a00f38c3ec1b5e920ad9d28a6432db1cdefde1"
+      sha256 "a64bf2261ddef75cb7a0421404769117ef2e47f590b848d396f408afa03e09a2"
       url "https://github.com/kot1grun/jakapil-cli/releases/download/v#{version}/jakapil-cli_Darwin_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "4b13625be71da30fd8ef6448c9ef6324a206e7e310192abefcba0f91eea4569c"
+      sha256 "7bb71386056f5fa4fd395610f8be1746d3deabc39260878e6e2e00a0b1cf2190"
       url "https://github.com/kot1grun/jakapil-cli/releases/download/v#{version}/jakapil-cli_Linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "aec4b12643ed2c7f0e4221cbcb85c3849a6cbbb593f6a64e8598cc78a9c12738"
+      sha256 "f10186ee3a16160b40caebd254797cd84425a342ee86dda0b18c7be0903ca42b"
       url "https://github.com/kot1grun/jakapil-cli/releases/download/v#{version}/jakapil-cli_Linux_x86_64.tar.gz"
     end
   end
